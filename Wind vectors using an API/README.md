@@ -1,5 +1,5 @@
 Using the National Weather Service’s API, I am making a program that uses the provided wind information for a specified longitude and latitude, more specifically the direction and speed of the wind. Using the speed and direction, (the components of velocity), I have found the horizontal and vertical components of this velocity vector. I plan to graph many of these vectors onto a map specifically for northwest Oregon, so one could view the wind behavior at this location. As of yet, I have successfully grabbed the necessary information from the API and have made it known in Unity, and have parsed the necessary data (speed and direction). I have generalized the project to work on an arbitrary number vectors. 
-To-do:
 
-    Implement a data structure (probably a linked list where the nodes are objects of a “weather” class) so I can plot hundreds of vectors onto a map.
-    Allow the program to use these longitudes and latitudes for plotting vectors. I will most likely keep these inside a textfile and loop through as needed to plug into the API’s URL’s.
+To-do:
+Implement a data structure (probably a linked list where the nodes are objects of a “weather” class) so I can plot hundreds of vectors onto a map.
+Allow the program to use these longitudes and latitudes for plotting vectors. I will most likely keep these inside a textfile and loop through as needed to plug into the API’s URL’s.
